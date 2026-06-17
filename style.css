@@ -443,10 +443,21 @@ button {
     width: 350px;
     height: 350px;
 }
-.profile-image {
+/* .profile-image {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    border-radius: 50%;
+    position: relative;
+    z-index: 2;
+    border: 4px solid var(--accent);
+} */
+
+.profile-image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center 15%;
     border-radius: 50%;
     position: relative;
     z-index: 2;
